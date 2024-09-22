@@ -41,7 +41,7 @@ group :development, :test do
 
   gem "database_cleaner"
   gem "faker"
-  gem "factory_bot_rails"
+  gem "factory_bot"
   gem "shoulda-matchers"
   gem "rspec-rails"
 end
