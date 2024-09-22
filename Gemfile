@@ -39,16 +39,18 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 
-  gem 'rspec-rails'
-  gem 'factory_bot_rails'
-  gem 'shoulda-matchers'
-  gem 'faker'
-  gem 'database_cleaner'
+  gem "database_cleaner"
+  gem "faker"
+  gem "factory_bot_rails"
+  gem "shoulda-matchers"
+  gem "rspec-rails"
 end
 
 group :development do
-  gem 'annotate'
+  gem "annotate"
 end
 
-
-
+gem "device"
+gem "devise-jwt"
+gem "jsonapi-serializer"
+gem "rack-cors"
