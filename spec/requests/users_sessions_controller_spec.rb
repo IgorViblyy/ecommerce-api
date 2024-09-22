@@ -3,7 +3,7 @@
 require 'rails_helper'
 require 'devise/jwt/test_helpers'
 
-RSpec.describe "Sign_in", type: :request  do
+RSpec.describe Users::SessionsController, type: :request  do
   let(:user) { create(:user) }
   let(:wrong_user) { create(:user, password: 'password1234') }
 
